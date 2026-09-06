@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://clvsoid8y8vkb"]
+
+[sub_resource type="Theme" id="Theme_126ht"]
+default_font_size = 48
+Label/fonts/font = null
+
+[node name="HelloWorld" type="Control" unique_id=1038767836]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=858936105]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CenterContainer" unique_id=511270321]
+layout_mode = 2
+theme = SubResource("Theme_126ht")
+text = "Hello World"
+horizontal_alignment = 1

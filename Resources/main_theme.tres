@@ -1,0 +1,5 @@
+[gd_resource type="Theme" format=3 uid="uid://37si5ax1n1hq"]
+
+[resource]
+default_font_size = 48
+Label/fonts/font = null
